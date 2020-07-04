@@ -7,7 +7,7 @@ class Desafio {
 		imprimeNome();
 	}
 	
-	//desta forma esta imprimindo de uma forma que as letras ficam certas, tem que ficar
+	//desta forma esta imprimindo de uma forma que as letras ficam certas na execução do método, tem que ficar
 	//desse jeito no código por causa do escape que esta sendo usado para desenhar as letras
 	public static void imprimeNome() {
 		System.out.println(" ________     ________    ________      _________     __________ " );
@@ -19,4 +19,4 @@ class Desafio {
 		System.out.println("|  |         |  ------|  |  |__ /  /   |   _  \\      |           |");
 		System.out.println("|__|         |________|  |________/    |__| |__\\      \\_________/" );
 	}
-}
+}	

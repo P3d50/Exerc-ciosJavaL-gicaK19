@@ -4,6 +4,10 @@ class Desafio {
 	
 	public static void main(String args[]){
 		
+		imprimeNome();
+	}
+	
+	public static void imprimeNome() {
 		System.out.println(" ________     ________    ________      _________     __________ " );
 		System.out.println("|   __  \\   |  ______|  |  ____  \\   |  ______\\   /  _______ \\");
 		System.out.println("|  |  |   |  |  |        |  |   \\  |  |  |    \\ |  |  |      | |");

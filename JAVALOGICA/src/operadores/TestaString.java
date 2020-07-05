@@ -10,23 +10,23 @@ class TestaString {
 
         System.out.println(s);
 
-        System.out.println(s.contains(" Cosentino "));
+        System.out.println(s.contains("s"));
         System.out.println(s);
 
-        System.out.println(s.contains(" Hirata "));
+        System.out.println(s.contains(" "));
         System.out.println(s);
 
         System.out.println(s.endsWith(" Cosentino "));
         System.out.println(s);
 
-        System.out.println(s.endsWith(" Hirata "));
-        System.out.println(s);
+        System.out.println(s.endsWith("Ramos"));
+        System.out.println(s+"2"); 
 
-        System.out.println(s.startsWith(" Rafael"));
+        System.out.println(s.startsWith("P"));
         System.out.println(s);
-        System.out.println(s.startsWith("Marcelo"));
+        System.out.println(s.startsWith("e"));
         System.out.println(s);
-        s = s.replaceAll(" Rafael ", " Jonas ");
+        s = s.replaceAll("e", "3");
 
         System.out.println(s);
         System.out.println(s.substring(6));
@@ -42,7 +42,8 @@ class TestaString {
         System.out.println(s);
         s = "K19 Treinamentos";
         System.out.println(s.trim());
-        System.out.println(s);
-
+        for(String str:s.split(" ")) {
+        	System.out.println(str);
+        }
     }
 }
